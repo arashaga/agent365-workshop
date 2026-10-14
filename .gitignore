@@ -1,0 +1,35 @@
+# Private settings and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.p8
+.azure/
+
+# Python environments, bytecode and tooling caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local logs and editor/OS files
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*
